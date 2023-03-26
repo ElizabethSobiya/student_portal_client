@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { createStudent } from "../actions/students";
-import { TextField, Button } from "@material-ui/core";
+import { TextField, Button , AppBar, Toolbar} from "@material-ui/core";
+import { Link } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 const StudentForm = () => {
   const initialStudentState = {
@@ -51,15 +54,33 @@ const StudentForm = () => {
     setSubmitted(false);
   };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   navigate.push('/');
-  // };
+  const theme = createMuiTheme({
+    palette: {
+      primary: {
+        main: "#43a047",
+      },
+    },
+  })
+ 
 
   return (
    
     <>
-    <div className="submit-form">
+    <ThemeProvider theme={theme}>
+      <AppBar position="static">
+        <Toolbar>
+        <Button color="inherit" component={Link} to="/">
+        <ArrowBackIosIcon />
+            </Button>
+          <div className="navbar-nav">
+            <Button color="inherit" component={Link} to="/add">
+              Add
+            </Button>
+          </div>
+        </Toolbar>
+      </AppBar>
+      </ThemeProvider>
+    <div className="submit-form"  style={{ fontFamily: 'Poppins' }}>
       {submitted ? (
         <div>
           <h3   style={{marginTop:'20px' }} >You submitted successfully!</h3>
@@ -101,7 +122,7 @@ const StudentForm = () => {
         fullWidth
       />
       <TextField
-        name="contact"
+        name="contact_number"
         label="Contact Number"
         value={student.contact_number}
          onChange={handleInputChange}
