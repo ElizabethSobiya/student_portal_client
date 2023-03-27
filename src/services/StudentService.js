@@ -4,11 +4,11 @@ const getAll = () => {
   return http.get("/students");
 };
 
-const get = id => {
+const get = (id) => {
   return http.get(`/students/${id}`);
 };
 
-const create = data => {
+const create = (data) => {
   return http.post("/students", data);
 };
 
@@ -16,7 +16,7 @@ const update = (id, data) => {
   return http.put(`/students/${id}`, data);
 };
 
-const remove = id => {
+const remove = (id) => {
   return http.delete(`/students/${id}`);
 };
 
@@ -24,7 +24,7 @@ const removeAll = () => {
   return http.delete(`/students`);
 };
 
-const findByTitle = name => {
+const findByTitle = (name) => {
   return http.get(`/students?name=${name}`);
 };
 
@@ -35,7 +35,7 @@ const StudentService = {
   update,
   remove,
   removeAll,
-  findByTitle
+  findByTitle,
 };
 
 export default StudentService;

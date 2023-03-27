@@ -7,6 +7,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  /* background: black; */
+  color: white;
+  overflow: hidden;
+
 }
 
 
@@ -38,9 +42,11 @@ table, th, td {
 form{
   margin-top: 20px;
 }
+label{color: white;}
 
 .form-group{
   margin-top: 20px;
+  color: white;
 }
 .form-group input{
   width: 400px;
@@ -62,4 +68,35 @@ form{
 
 .table{
   margin:50px 300px 50px 300px;
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 140px;
+  font-size: 70px;
+}
+.learn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 400px;
+  margin-left: 500px;
+}
+
+.tools{
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* padding-right: 500px; */
 }
