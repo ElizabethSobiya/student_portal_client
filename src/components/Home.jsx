@@ -64,7 +64,7 @@ function Home() {
           component={Link}
           to="/students"
           className="learn"
-          style={{ marginLeft: "710px", backgroundColor:'#AA336A' }}
+          style={{ marginLeft: "685px", backgroundColor:'#AA336A' }}
         >
           Learn More
         </Button>

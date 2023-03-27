@@ -309,11 +309,15 @@ const StudentsList = () => {
             onChangePage={handleChangePage}
             onChangeRowsPerPage={handleChangeRowsPerPage}
           />
-          <Button
+         <div  style={{
+              paddingTop: "0px",
+              paddingBottom:'10px'
+            }}>
+         <Button
             variant="contained"
             color="secondary"
             onClick={removeAllStudents}
-            style={{ marginTop: "10px" }}
+           
           >
             Remove All
           </Button>
@@ -322,7 +326,7 @@ const StudentsList = () => {
             color="primary"
             startIcon={<AddIcon />}
             style={{
-              marginTop: "10px",
+             
               fontFamily: "Poppins",
               marginLeft: "20px",
             }}
@@ -331,6 +335,7 @@ const StudentsList = () => {
           >
             Add
           </Button>
+         </div>
         </div>
       </div>
     </>

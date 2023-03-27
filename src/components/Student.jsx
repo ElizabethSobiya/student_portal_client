@@ -117,12 +117,15 @@ const Student = (props) => {
           opacity: "0.9",
         }}
       >
-        <div style={{ fontFamily: "Poppins", color: "white" }}>
+        <div style={{ fontFamily: "Poppins", background:'#c0c0c0', marginTop:'35px', 
+        paddingTop:'20px', borderRadius:'10px', 
+        width:'400px', height:'auto' , display:'flex', justifyContent:'center', 
+        alignItems:'center',textAlign:"center", marginLeft:'550px' }}>
           {currentStudent ? (
             <div className="edit-form">
-              <h1 style={{ marginTop: "20px" }}>Students Details</h1>
+              <h1 style={{ paddingTop: "30px", color:'black' }}>Students Details</h1>
               <br />
-              <form>
+              <form >
                 <div className="form-group">
                   <TextField
                     label="Name"
@@ -132,14 +135,14 @@ const Student = (props) => {
                     onChange={handleInputChange}
                     InputProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                     InputLabelProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                   />
@@ -154,14 +157,14 @@ const Student = (props) => {
                     onChange={handleInputChange}
                     InputProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                     InputLabelProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                   />
@@ -175,14 +178,14 @@ const Student = (props) => {
                     onChange={handleInputChange}
                     InputProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                     InputLabelProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                   />
@@ -195,14 +198,14 @@ const Student = (props) => {
                     onChange={handleInputChange}
                     InputProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                     InputLabelProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                   />
@@ -215,20 +218,21 @@ const Student = (props) => {
                     onChange={handleInputChange}
                     InputProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                     InputLabelProps={{
                       style: {
-                        color: "white",
-                        fontWeight: "520",
+                       
+                        fontWeight: "550",
                       },
                     }}
                   />
                 </div>
               </form>
-
+            
+             <div style={{ paddingBottom: "30px" }}>
               <Button
                 variant="contained"
                 color="secondary"
@@ -246,6 +250,7 @@ const Student = (props) => {
               >
                 Update
               </Button>
+              </div>
               <p>{message}</p>
             </div>
           ) : (

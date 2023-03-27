@@ -106,10 +106,11 @@ const StudentForm = () => {
         }}
       >
         <div
-          className="submit-form"
-          style={{ fontFamily: "Poppins", color: "white" }}
+          className=""
+          style={{ fontFamily: "Poppins", background:'#c0c0c0', marginTop:'80px', width:'450px',
+          paddingTop:'5px', borderRadius:'10px', height:'auto' , marginLeft:'550px', paddingLeft:'50px' }}
         >
-          {submitted ? (
+          {/* {submitted ? (
             <div>
               <h3 style={{ marginTop: "20px" }}>You submitted successfully!</h3>
               <Button variant="contained" color="primary" onClick={newStudent}>
@@ -117,132 +118,146 @@ const StudentForm = () => {
               </Button>
               );
             </div>
-          ) : (
+          ) : ( */}
             <form
               style={{
                 fontFamily: "Poppins",
                 color: "white",
-                marginTop: "50px",
+                marginTop: "20px",
+                width:'350px',
               }}
             >
+            <div className="form-group">
               <TextField
                 name="name"
                 label="Name"
                 value={student.name}
                 onChange={handleInputChange}
-                style={{ color: "white", fontWeight: "800" }}
-                margin="normal"
+                style={{  fontWeight: "800" }}
+                
                 required
                 fullWidth
                 InputProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
                 InputLabelProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
               />
+                </div>
+                <div className="form-group">
+
               <TextField
                 name="dob"
                 label=""
                 type="date"
                 value={student.dob}
                 onChange={handleInputChange}
-                margin="normal"
+                
                 required
                 fullWidth
                 InputProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
                 InputLabelProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
-              />
+                />
+                </div>
+              <div className="form-group">
               <TextField
                 name="address"
                 label="Address"
                 value={student.address}
                 onChange={handleInputChange}
-                margin="normal"
+                
                 required
                 fullWidth
                 InputProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
                 InputLabelProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
               />
+              </div>
+              <div className="form-group">
               <TextField
                 name="contact_number"
                 label="Contact Number"
                 value={student.contact_number}
                 onChange={handleInputChange}
-                margin="normal"
+                
                 required
                 fullWidth
                 InputProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
                 InputLabelProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
               />
+              </div>
+              <div className="form-group"  style={{paddingBottom:'10px'}}>
               <TextField
                 name="course"
                 label="Course"
                 value={student.course}
                 onChange={handleInputChange}
-                margin="normal"
+                
                 required
                 fullWidth
                 InputProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
                 InputLabelProps={{
                   style: {
-                    color: "white",
-                    fontWeight: "520",
+                    color: "black",
+                    fontWeight: "550",
                   },
                 }}
               />
-
+              </div>
+              <div style={{paddingTop:'20px', paddingBottom:'20px'}}>
               <Button
                 onClick={saveStudent}
                 type="submit"
                 variant="contained"
+                
                 color="primary"
               >
                 Submit
               </Button>
+              </div>
             </form>
-          )}
+          {/* )} */}
         </div>
       </div>
     </>
