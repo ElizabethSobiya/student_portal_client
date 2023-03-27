@@ -14,5 +14,6 @@ Students Update and delete page
 
 New Students (POST-page)
 
-![Screenshot (193)](https://user-images.githubusercontent.com/98687741/228028667-17eead5a-524c-4db3-b793-a43f32d0a21e.png)
+![Screenshot (194)](https://user-images.githubusercontent.com/98687741/228034701-02305642-1a48-4761-b770-db79b88fbbc9.png)
+
 
