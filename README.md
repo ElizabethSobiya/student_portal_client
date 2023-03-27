@@ -1,36 +1,18 @@
-# Getting Started with Create React App
+In the home page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot (187)](https://user-images.githubusercontent.com/98687741/228028301-b55d1bf2-879d-470e-8f4f-2802e3704faf.png)
 
-## Available Scripts
+Students portal details Page
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+![Screenshot (188)](https://user-images.githubusercontent.com/98687741/228028403-75c94a4a-f783-41a9-b9c2-d54958e52713.png)
 
 
+Students Update and delete page
 
+![Screenshot (192)](https://user-images.githubusercontent.com/98687741/228028500-b6b25442-3178-4557-bb32-7c02a8a37876.png)
+
+
+New Students (POST-page)
+
+![Screenshot (193)](https://user-images.githubusercontent.com/98687741/228028667-17eead5a-524c-4db3-b793-a43f32d0a21e.png)
 
