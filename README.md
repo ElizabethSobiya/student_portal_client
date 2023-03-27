@@ -1,6 +1,7 @@
 In the home page
 
-![Screenshot (187)](https://user-images.githubusercontent.com/98687741/228028301-b55d1bf2-879d-470e-8f4f-2802e3704faf.png)
+![Screenshot (196)](https://user-images.githubusercontent.com/98687741/228036741-ec951195-cb35-4ed1-a547-627cb4afe657.png)
+
 
 Students portal details Page
 
@@ -9,11 +10,13 @@ Students portal details Page
 
 Students Update and delete page
 
-![Screenshot (192)](https://user-images.githubusercontent.com/98687741/228028500-b6b25442-3178-4557-bb32-7c02a8a37876.png)
+![Screenshot (197)](https://user-images.githubusercontent.com/98687741/228036797-86a8fbfa-e7be-41a6-9e0e-19d3a73c236f.png)
 
 
 New Students (POST-page)
 
-![Screenshot (194)](https://user-images.githubusercontent.com/98687741/228034701-02305642-1a48-4761-b770-db79b88fbbc9.png)
+![Screenshot (198)](https://user-images.githubusercontent.com/98687741/228036844-248848f3-3f4f-489d-96dd-55c7768a1652.png)
+
+
 
 
